@@ -53,8 +53,8 @@ spec:
     - protocol: TCP
       port: 443
       targetPort: 443
-      name: tcp443
+      name: tcp
     - protocol: UDP
       port: 443
       targetPort: 443
-      name: udp443
+      name: udp
