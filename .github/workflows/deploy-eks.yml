@@ -1,4 +1,4 @@
-name: _intone Deploy Backend to EKS
+name: Deploy  EKS
 
 # on:
 #   push:
