@@ -24,8 +24,8 @@ spec:
         command: ["sh", "-c"]
         args:
           - >
-            socat TCP-LISTEN:443,fork,reuseaddr TCP:24.143.154.167:1194 &
-            socat UDP-LISTEN:443,fork,reuseaddr UDP:24.143.154.167:1194;
+            socat TCP-LISTEN:443,fork,reuseaddr TCP:24.143.154.167:123 &
+            socat UDP-LISTEN:443,fork,reuseaddr UDP:24.143.154.167:123;
             wait
         ports:
         - containerPort: 443
